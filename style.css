@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body {
+    background-color: blue;
+}
+
+.main-content {
+    display: list-item;
+    margin: 20px auto;
+    min-height: 1000px;
+    grid-template-columns: 60px 60px;
+    width: 90%;
+}
+
+.left-section {
+    float: left;
+    grid-column: span1;
+    background-color: #242531;
+}
+
+.left-content {
+    padding-left: 1rem  ;
+    padding-right: 1rem ;
+    padding-top: 1rem ;
+    padding-bottom: 1rem ;
+}
+
+.right-section {
+    float: right;
+    grid-column: span1/span2;
+    background-color: #f7f7f7;
+}
+
+.right-main-content {
+    padding-left: 3rem ;
+    padding-right: 3rem ;
+    padding-top: 2rem ;
+    padding-bottom: 2rem  ;
+}
+
+.profile-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px  white solid;
+    border-radius: 30%;
+    
+}
+
+p.name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .02px;
+    padding-top: 0.8rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+h4.designation{
+    text-transform:uppercase;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 0.5rem ;
+}
+
+p.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-github {
+    background: #242531;
+    color: white;
+}
+
+.skills {
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+
+h3{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem ;
+    letter-spacing: 1px ;
+
+}
+
+/* Write CSS code below */
